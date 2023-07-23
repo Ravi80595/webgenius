@@ -1,4 +1,4 @@
-import { Box,Flex,Button,Text } from '@chakra-ui/react'
+import { Box,Flex,Button,Text,Image } from '@chakra-ui/react'
 import React from 'react'
 import {BsSearchHeart} from 'react-icons/bs'
 
@@ -7,22 +7,21 @@ const Navbar = () => {
 
 
 return (
-    <Box>
+    <Box background={'#a4ece8'} zIndex={99999} position={'fixed'} w={'100%'}>
       <Flex p={5} justifyContent='space-around'>
-        <Box>
-          Logo
+        <Box w={'15%'}>
+          <Image w={20} src='https://www.marketingmind.in/wp-content/uploads/2020/02/5.jpg'/>
         </Box>
-        <Flex justifyContent='space-around'> 
-          <Text>Home</Text>
-          <Text>Services</Text>
-          <Text>About us</Text>
-          <Text>Blogs</Text>
-          <Text>Contact us</Text>
-          <Text>Success Stories</Text>
+        <Flex fontSize={'17px'} fontWeight={'600'} pt={2} color={'#323F7C'} w={'60%'} justifyContent='space-around'>
+          <Box padding='10px 22px 10px 22px' borderRadius={'5px'} _hover={{background:"#b5d6f1",color:'blue'}}>Home</Box>
+          <Box padding='10px 22px 10px 22px' borderRadius={'5px'} _hover={{background:"#b5d6f1",color:'blue'}}>Services</Box>
+          <Box padding='10px 22px 10px 22px' borderRadius={'5px'} _hover={{background:"#b5d6f1",color:'blue'}}>About us</Box>
+          <Box padding='10px 22px 10px 22px' borderRadius={'5px'} _hover={{background:"#b5d6f1",color:'blue'}}>Blogs</Box>
+          <Box padding='10px 22px 10px 22px' borderRadius={'5px'} _hover={{background:"#b5d6f1",color:'blue'}}>Contact us</Box>
+          <Box padding='10px 22px 10px 22px' borderRadius={'5px'} _hover={{background:"#b5d6f1",color:'blue'}}>Success Storis</Box>
         </Flex>
-        <Flex>
-          <BsSearchHeart />
-          <Button>Get A Quote </Button>
+        <Flex pt={3} w={'20%'} justifyContent={'center'} gap={10}>
+          <Button _hover={{background:"blue",color:'white'}} color={'white'} fontSize={'1.15rem'} background={'#323F7C'} p='14px 36px 14px 36px' borderRadius={'6px'}>Get A Quote </Button>
         </Flex>
       </Flex>
     </Box>

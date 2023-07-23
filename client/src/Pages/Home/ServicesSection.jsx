@@ -1,4 +1,4 @@
-import { Box,Button,Flex,Image,Text} from '@chakra-ui/react'
+import { Box,Button,Flex,Image,Text,Heading} from '@chakra-ui/react'
 import React from 'react'
 
 const ServicesSection = () => {
@@ -6,6 +6,7 @@ const ServicesSection = () => {
 
 return(
     <Box>
+        <Heading>Our Services</Heading>
         <Flex gap={'40px'} w='90%' m='auto' justifyContent='space-around'>
             <Box border='2px solid grey' borderRadius={20}>
                 <Image borderTopRadius={20} src='https://demo.rstheme.com/wordpress/tekone/wp-content/uploads/2023/03/service4-image-1.png'/>
