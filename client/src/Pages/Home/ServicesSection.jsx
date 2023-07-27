@@ -19,29 +19,29 @@ return(
                     <Image padding={'15px'} h='auto' verticalAlign={'middle'} borderRadius='50%' src='https://demo.rstheme.com/wordpress/tekone/wp-content/uploads/2023/03/cyber-icon.png'/>
                 </Box>
                 <Box w='90%' m='auto'>
-                <Text fontSize='24px' fontFamily={'"Space Grotesk", sans-serif'} color={'#002559'} fontWeight={'bold'} lineHeight={'36px'} mt={'60px'}>Tagline Here</Text>
-                <Text fontWeight='bold' color='#606060' fontFamily={'"Open Sans", sans-serif'} fontSize={'16px'} lineHeight={'28px'} mt={'20px'}>Bring to the table win-win survival strategies to ensure proactive domination.</Text>
+                <Text fontSize='24px' fontFamily={'"Space Grotesk", sans-serif'} color={'#002559'} fontWeight={'bold'} lineHeight={'36px'} mt={'60px'}>IT Solutions</Text>
+                <Text fontWeight='400' color='#606060' fontFamily={'"Open Sans", sans-serif'} fontSize={'16px'} lineHeight={'28px'} mt={'20px'}>Bring to the table win-win survival strategies to ensure proactive domination.</Text>
                 <Button mb={'10px'} mt={'20px'}>Read More</Button>
                 </Box>
             </Box>
             <Box  background='white' borderRadius={20}>
-                <Image borderTopRadius={20} src='https://demo.rstheme.com/wordpress/tekone/wp-content/uploads/2023/03/service4-image-3.png'/>
+                <Image borderTopRadius={20} w={'800px'} src='https://demo.rstheme.com/wordpress/tekone/wp-content/uploads/2023/04/services_img_5.png'/>
                 <Box ml={'20px'} background={'#F79C53'} mt='-40px' position='absolute' borderRadius='50%' _hover={{background:'linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%)'}} w={20} h={20}>
                     <Image padding={'15px'} h='auto' verticalAlign={'middle'} borderRadius='50%' src='https://demo.rstheme.com/wordpress/tekone/wp-content/uploads/2023/03/cyber-icon.png'/>
                 </Box>
                 <Box w='90%' m='auto'>
-                <Text fontSize='24px' fontFamily={'"Space Grotesk", sans-serif'} color={'#002559'} fontWeight={'bold'} lineHeight={'36px'} mt={'60px'}>Tagline Here</Text>
-                <Text fontWeight='bold' color='#606060' fontFamily={'"Open Sans", sans-serif'} fontSize={'16px'} lineHeight={'28px'} mt={'20px'}>Bring to the table win-win survival strategies to ensure proactive domination.</Text>
+                <Text fontSize='24px' fontFamily={'"Space Grotesk", sans-serif'} color={'#002559'} fontWeight={'bold'} lineHeight={'36px'} mt={'60px'}>Digital Marketing</Text>
+                <Text fontWeight='400' color='#606060' fontFamily={'"Open Sans", sans-serif'} fontSize={'16px'} lineHeight={'28px'} mt={'20px'}>Bring to the table win-win survival strategies to ensure proactive domination.</Text>
                 <Button mb={'10px'} mt={'20px'}>Read More</Button>
                 </Box>
             </Box><Box  background='white' borderRadius={20}>
-                <Image borderTopRadius={20} src='https://demo.rstheme.com/wordpress/tekone/wp-content/uploads/2023/03/service4-image-2.png'/>
+                <Image borderTopRadius={20} src='https://demo.rstheme.com/wordpress/tekone/wp-content/uploads/2023/04/service_img_4.png'/>
                 <Box ml={'20px'} background={'#F79C53'} mt='-40px' position='absolute' borderRadius='50%' _hover={{background:'linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%)'}} w={20} h={20}>
                     <Image padding={'15px'} h='auto' verticalAlign={'middle'} borderRadius='50%' src='https://demo.rstheme.com/wordpress/tekone/wp-content/uploads/2023/03/cyber-icon.png'/>
                 </Box>
                 <Box w='90%' m='auto'>
-                <Text fontSize='24px' fontFamily={'"Space Grotesk", sans-serif'} color={'#002559'} fontWeight={'bold'} lineHeight={'36px'} mt={'60px'}>Tagline Here</Text>
-                <Text fontWeight='bold' color='#606060' fontFamily={'"Open Sans", sans-serif'} fontSize={'16px'} lineHeight={'28px'} mt={'20px'}>Bring to the table win-win survival strategies to ensure proactive domination.</Text>
+                <Text fontSize='24px' fontFamily={'"Space Grotesk", sans-serif'} color={'#002559'} fontWeight={'bold'} lineHeight={'36px'} mt={'60px'}>UI/UX Design</Text>
+                <Text fontWeight='400' color='#606060' fontFamily={'"Open Sans", sans-serif'} fontSize={'16px'} lineHeight={'28px'} mt={'20px'}>Bring to the table win-win survival strategies to ensure proactive domination.</Text>
                 <Button mb={'10px'} mt={'20px'}>Read More</Button>
                 </Box>
             </Box>
@@ -55,8 +55,8 @@ return(
                     <Image padding={'15px'} h='auto' verticalAlign={'middle'} borderRadius='50%' src='https://demo.rstheme.com/wordpress/tekone/wp-content/uploads/2023/03/cyber-icon.png'/>
                 </Box>
                 <Box w='90%' m='auto'>
-                <Text fontSize='24px' fontFamily={'"Space Grotesk", sans-serif'} color={'#002559'} fontWeight={'bold'} lineHeight={'36px'} mt={'60px'}>Tagline Here</Text>
-                <Text fontWeight='bold' color='#606060' fontFamily={'"Open Sans", sans-serif'} fontSize={'16px'} lineHeight={'28px'} mt={'20px'}>Bring to the table win-win survival strategies to ensure proactive domination.</Text>
+                <Text fontSize='24px' fontFamily={'"Space Grotesk", sans-serif'} color={'#002559'} fontWeight={'bold'} lineHeight={'36px'} mt={'60px'}>Cloud Services</Text>
+                <Text fontWeight='400' color='#606060' fontFamily={'"Open Sans", sans-serif'} fontSize={'16px'} lineHeight={'28px'} mt={'20px'}>Bring to the table win-win survival strategies to ensure proactive domination.</Text>
                 <Button mb={'10px'} mt={'20px'}>Read More</Button>
                 </Box>
             </Box>
@@ -66,8 +66,8 @@ return(
                     <Image padding={'15px'} h='auto' verticalAlign={'middle'} borderRadius='50%' src='https://demo.rstheme.com/wordpress/tekone/wp-content/uploads/2023/03/cyber-icon.png'/>
                 </Box>
                 <Box w='90%' m='auto'>
-                <Text fontSize='24px' fontFamily={'"Space Grotesk", sans-serif'} color={'#002559'} fontWeight={'bold'} lineHeight={'36px'} mt={'60px'}>Tagline Here</Text>
-                <Text fontWeight='bold' color='#606060' fontFamily={'"Open Sans", sans-serif'} fontSize={'16px'} lineHeight={'28px'} mt={'20px'}>Bring to the table win-win survival strategies to ensure proactive domination.</Text>
+                <Text fontSize='24px' fontFamily={'"Space Grotesk", sans-serif'} color={'#002559'} fontWeight={'bold'} lineHeight={'36px'} mt={'60px'}>SEO Optimization</Text>
+                <Text fontWeight='400' color='#606060' fontFamily={'"Open Sans", sans-serif'} fontSize={'16px'} lineHeight={'28px'} mt={'20px'}>Bring to the table win-win survival strategies to ensure proactive domination.</Text>
                 <Button mb={'10px'} mt={'20px'}>Read More</Button>
                 </Box>
             </Box><Box  background='white' borderRadius={20}>
@@ -76,8 +76,8 @@ return(
                     <Image padding={'15px'} h='auto' verticalAlign={'middle'} borderRadius='50%' src='https://demo.rstheme.com/wordpress/tekone/wp-content/uploads/2023/03/cyber-icon.png'/>
                 </Box>
                 <Box w='90%' m='auto'>
-                <Text fontSize='24px' fontFamily={'"Space Grotesk", sans-serif'} color={'#002559'} fontWeight={'bold'} lineHeight={'36px'} mt={'60px'}>Tagline Here</Text>
-                <Text fontWeight='bold' color='#606060' fontFamily={'"Open Sans", sans-serif'} fontSize={'16px'} lineHeight={'28px'} mt={'20px'}>Bring to the table win-win survival strategies to ensure proactive domination.</Text>
+                <Text fontSize='24px' fontFamily={'"Space Grotesk", sans-serif'} color={'#002559'} fontWeight={'bold'} lineHeight={'36px'} mt={'60px'}>Cyber Security</Text>
+                <Text fontWeight='400' color='#606060' fontFamily={'"Open Sans", sans-serif'} fontSize={'16px'} lineHeight={'28px'} mt={'20px'}>Bring to the table win-win survival strategies to ensure proactive domination.</Text>
                 <Button mb={'10px'} mt={'20px'}>Read More</Button>
                 </Box>
             </Box>

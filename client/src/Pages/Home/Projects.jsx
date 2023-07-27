@@ -4,15 +4,18 @@ import React from 'react'
 const Projects = () => {
 
 
-
+    {/* <Button>All Services</Button> */}
 return(
     <Box>
-      <Text color={'#5944E8'} fontSize={'16px'} fontWeight={'bold'} fontFamily={'"Space Grotesk", sans-serif'}>OUR PROJECTS</Text>
-      <Flex>
-      <Heading  fontSize={'36px'} lineHeight={'46px'} fontWeight={'bold'} color={'#323F7C'} fontFamily={'"Space Grotesk", sans-serif'}>Our Recent Launched Projects Available Into Market</Heading>
-      <Button>All Services</Button>
-      </Flex>
-      <Flex>
+      <Flex justifyContent={'center'} gap='10px'>
+      <Image src='https://demo.rstheme.com/wordpress/tekone/wp-content/uploads/2023/03/heart_beat_graph_dark.svg'/>
+     <Text color={'#5944E8'} fontSize={'16px'} fontWeight={'bold'} fontFamily={'"Space Grotesk", sans-serif'}>OUR PROJECTS</Text>
+     <Image src='https://demo.rstheme.com/wordpress/tekone/wp-content/uploads/2023/03/heart_beat_graph_dark.svg'/>
+    </Flex>
+      <Heading w='50%' m='auto' pb='80px' textAlign={'center'} fontSize={'36px'} lineHeight={'46px'} fontWeight={'bold'} color={'#323F7C'} fontFamily={'"Space Grotesk", sans-serif'}>Our Recent Launched Projects Available Into Market</Heading>
+
+
+    <Flex justifyContent={'space-around'} w={'90%'} m='auto' gap='40px'>
       <Box border='2px solid grey' borderRadius={20}>
                 <Image borderTopRadius={20} src='https://demo.rstheme.com/wordpress/tekone/wp-content/uploads/2023/03/service4-image-1.png'/>
                 <Box ml={'20px'} border='2px solid blue' mt='-40px' position='absolute' borderRadius='50%' w={20} h={20}></Box>
