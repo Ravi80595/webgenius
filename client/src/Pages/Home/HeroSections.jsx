@@ -1,5 +1,6 @@
 import { Box,Flex,Image,Text,Button,Heading } from '@chakra-ui/react'
 import React from 'react'
+import '../../CSS/MovingImage.css'
 
 const HeroSections = () => {
 
@@ -19,7 +20,7 @@ return (
             </Flex>
             </Box>
             <Box w='45%' pt={'50px'}>
-                <Image position='absolute' src='https://demo.rstheme.com/wordpress/tekone/wp-content/uploads/2023/05/banner-ly5-h5.png'/>
+                <Image className='moving-image' position='absolute' zIndex={9999} mt={'13%'} ml={'13vw'} src='https://demo.rstheme.com/wordpress/tekone/wp-content/uploads/2023/05/banner-ly5-h5.png'/>
                 <Image src='https://demo.rstheme.com/wordpress/tekone/wp-content/uploads/2023/05/banner-ly-h5.png'/>
             </Box>
         </Flex>
