@@ -6,12 +6,14 @@ import TechStacks from './TechStacks'
 import Techs from './Techs'
 import Projects from './Projects'
 import Footer from '../../Components/Footer'
+import Navbar from '../../Components/Navbar'
 
 const HomePage = () => {
 
 
 return (
     <div>
+      <Navbar/>
       <HeroSections/>
       <ServicesSection/>
       <AboutUs/>

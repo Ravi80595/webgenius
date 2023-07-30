@@ -1,10 +1,13 @@
 import { Box,Text,Heading,Flex,Button, Image } from '@chakra-ui/react'
 import React from 'react'
+import {BiSolidRightArrowAlt} from 'react-icons/bi'
+import '../../CSS/HomePage.css'
 
 const Projects = () => {
 
 
-    {/* <Button>All Services</Button> */}
+
+
 return(
     <Box>
       <Flex justifyContent={'center'} gap='10px'>
@@ -15,34 +18,72 @@ return(
       <Heading w='50%' m='auto' pb='80px' textAlign={'center'} fontSize={'36px'} lineHeight={'46px'} fontWeight={'bold'} color={'#323F7C'} fontFamily={'"Space Grotesk", sans-serif'}>Our Recent Launched Projects Available Into Market</Heading>
 
 
-    <Flex justifyContent={'space-around'} w={'90%'} m='auto' gap='40px'>
-      <Box border='2px solid grey' borderRadius={20}>
-                <Image borderTopRadius={20} src='https://demo.rstheme.com/wordpress/tekone/wp-content/uploads/2023/03/service4-image-1.png'/>
-                <Box ml={'20px'} border='2px solid blue' mt='-40px' position='absolute' borderRadius='50%' w={20} h={20}></Box>
-                <Box w='90%' m='auto'>
-                <Text fontSize='24px' fontFamily={'"Space Grotesk", sans-serif'} color={'#002559'} fontWeight={'bold'} lineHeight={'36px'} mt={'60px'}>Tagline Here</Text>
-                <Text fontWeight='bold' color='#606060' fontFamily={'"Open Sans", sans-serif'} fontSize={'16px'} lineHeight={'28px'} mt={'20px'}>Bring to the table win-win survival strategies to ensure proactive domination.</Text>
-                <Button mb={'10px'} mt={'20px'}>Read More</Button>
-                </Box>
-            </Box>
-            <Box border='2px solid grey' borderRadius={20}>
-                <Image borderTopRadius={20} src='https://demo.rstheme.com/wordpress/tekone/wp-content/uploads/2023/03/service4-image-1.png'/>
-                <Box ml={'20px'} border='2px solid blue' mt='-40px' position='absolute' borderRadius='50%' w={20} h={20}></Box>
-                <Box w='90%' m='auto'>
-                <Text fontSize='24px' fontFamily={'"Space Grotesk", sans-serif'} color={'#002559'} fontWeight={'bold'} lineHeight={'36px'} mt={'60px'}>Tagline Here</Text>
-                <Text fontWeight='bold' color='#606060' fontFamily={'"Open Sans", sans-serif'} fontSize={'16px'} lineHeight={'28px'} mt={'20px'}>Bring to the table win-win survival strategies to ensure proactive domination.</Text>
-                <Button mb={'10px'} mt={'20px'}>Read More</Button>
-                </Box>
-            </Box>
-            <Box border='2px solid grey' borderRadius={20}>
-                <Image borderTopRadius={20} src='https://demo.rstheme.com/wordpress/tekone/wp-content/uploads/2023/03/service4-image-1.png'/>
-                <Box ml={'20px'} border='2px solid blue' mt='-40px' position='absolute' borderRadius='50%' w={20} h={20}></Box>
-                <Box w='90%' m='auto'>
-                <Text fontSize='24px' fontFamily={'"Space Grotesk", sans-serif'} color={'#002559'} fontWeight={'bold'} lineHeight={'36px'} mt={'60px'}>Tagline Here</Text>
-                <Text fontWeight='bold' color='#606060' fontFamily={'"Open Sans", sans-serif'} fontSize={'16px'} lineHeight={'28px'} mt={'20px'}>Bring to the table win-win survival strategies to ensure proactive domination.</Text>
-                <Button mb={'10px'} mt={'20px'}>Read More</Button>
-                </Box>
-            </Box>
+
+
+
+      <Flex color={'white'} w={'95%'} m={'auto'} justifyContent={'center'} gap='10px'>
+      <Box className='image-container'>
+        <Image className='image' src='https://demo.rstheme.com/wordpress/tekone/wp-content/uploads/2023/03/portfolio-4.jpg'/>
+        <div className="blue-overlay"></div>
+        <Box position={'absolute'} padding={'10px'} marginTop={'-120px'} borderTopRadius={20}>
+          <Text fontSize={'25px'} fontWeight={'700'} fontFamily={'"Space Grotesk", sans-serif'} lineHeight={"35px"} mt={'10px'}>Infrastructure Upgrade</Text>
+          <Flex justifyContent={'center'} color={'white'} _hover={{color:'#002559'}} mt={'20px'} fontSize={'18px'} gap={'10px'}>
+                    <Text fontWeight={600}> View Details</Text>
+                    <Box pt={'5px'} fontSize={'20px'}>
+                    <BiSolidRightArrowAlt/></Box>
+                </Flex>
+        </Box>
+      </Box>
+
+
+
+      <Box className='image-container'>
+        <Image className='image' src='https://demo.rstheme.com/wordpress/tekone/wp-content/uploads/2023/03/portfolio-6.jpg'/>
+        <div className="blue-overlay"></div>
+        <Box position={'absolute'} padding={'10px'} marginTop={'-120px'} borderTopRadius={20}>
+          <Text fontSize={'25px'} fontWeight={'700'} fontFamily={'"Space Grotesk", sans-serif'} lineHeight={"35px"} mt={'10px'}>Innovation Technology</Text>
+          <Flex justifyContent={'center'} color={'white'} _hover={{color:'#002559'}} mt={'20px'} fontSize={'18px'} gap={'10px'}>
+                    <Text fontWeight={600}> View Details</Text>
+                    <Box pt={'5px'} fontSize={'20px'}>
+                    <BiSolidRightArrowAlt/></Box>
+                </Flex>
+        </Box>
+      </Box>
+
+
+
+
+      <Box className='image-container'>
+        <Image className='image' src='https://demo.rstheme.com/wordpress/tekone/wp-content/uploads/2023/03/portfolio-5.jpg'/>
+        <div className="blue-overlay"></div>
+        <Box position={'absolute'} padding={'10px'} marginTop={'-120px'} borderTopRadius={20}>
+          <Text fontSize={'25px'} fontWeight={'700'} fontFamily={'"Space Grotesk", sans-serif'} lineHeight={"35px"} mt={'10px'}>Data Visualization</Text>
+          <Flex justifyContent={'center'} color={'white'} _hover={{color:'#002559'}} mt={'20px'} fontSize={'18px'} gap={'10px'}>
+                    <Text fontWeight={600}> View Details</Text>
+                    <Box pt={'5px'} fontSize={'20px'}>
+                    <BiSolidRightArrowAlt/></Box>
+                </Flex>
+        </Box>
+      </Box>
+
+
+
+
+
+
+      <Box className='image-container'>
+        <Image className='image' src='https://demo.rstheme.com/wordpress/tekone/wp-content/uploads/2023/03/portfolio-7.jpg'/>
+        <div className="blue-overlay"></div>
+        <Box position={'absolute'} padding={'10px'} marginTop={'-120px'} borderTopRadius={20}>
+          <Text fontSize={'25px'} fontWeight={'700'} fontFamily={'"Space Grotesk", sans-serif'} lineHeight={"35px"} mt={'10px'}>Website Development</Text>
+          <Flex justifyContent={'center'} color={'white'} _hover={{color:'#002559'}} mt={'20px'} fontSize={'18px'} gap={'10px'}>
+                    <Text fontWeight={600}> View Details</Text>
+                    <Box pt={'5px'} fontSize={'20px'}>
+                    <BiSolidRightArrowAlt/></Box>
+                </Flex>
+        </Box>
+      </Box>
+
       </Flex>
     </Box>
   )

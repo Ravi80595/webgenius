@@ -3,12 +3,12 @@ import React from 'react'
 import {BsSearchHeart} from 'react-icons/bs'
 import { Link } from 'react-router-dom'
 
-const Navbar = () => {
+const Navbar2 = () => {
 
 
 
 return (
-    <Box background={'#a4ece8'} zIndex={99999} position={'fixed'} w={'100%'}>
+    <Box background={'white'} zIndex={99999} position={'fixed'} w={'100%'}>
       <Flex p={5} justifyContent='space-around'>
         <Box w={'15%'}>
           <Image w={20} src='https://www.marketingmind.in/wp-content/uploads/2020/02/5.jpg'/>
@@ -17,8 +17,7 @@ return (
           <Link to='/'>
           <Box padding='10px 22px 10px 22px' borderRadius={'5px'} _hover={{background:"#b5d6f1",color:'blue'}}>Home</Box></Link>
           <Box padding='10px 22px 10px 22px' borderRadius={'5px'} _hover={{background:"#b5d6f1",color:'blue'}}>Services</Box>
-          <Link to='/about'>
-          <Box padding='10px 22px 10px 22px' borderRadius={'5px'} _hover={{background:"#b5d6f1",color:'blue'}}>About us</Box></Link>
+          <Box padding='10px 22px 10px 22px' borderRadius={'5px'} _hover={{background:"#b5d6f1",color:'blue'}}>About us</Box>
           <Box padding='10px 22px 10px 22px' borderRadius={'5px'} _hover={{background:"#b5d6f1",color:'blue'}}>Blogs</Box>
           <Box padding='10px 22px 10px 22px' borderRadius={'5px'} _hover={{background:"#b5d6f1",color:'blue'}}>Contact us</Box>
           <Box padding='10px 22px 10px 22px' borderRadius={'5px'} _hover={{background:"#b5d6f1",color:'blue'}}>Success Storis</Box>
@@ -31,4 +30,4 @@ return (
   )
 }
 
-export default Navbar
+export default Navbar2
