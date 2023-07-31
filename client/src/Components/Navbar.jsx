@@ -16,11 +16,13 @@ return (
         <Flex fontSize={'17px'} fontWeight={'600'} pt={2} color={'#323F7C'} w={'60%'} justifyContent='space-around'>
           <Link to='/'>
           <Box padding='10px 22px 10px 22px' borderRadius={'5px'} _hover={{background:"#b5d6f1",color:'blue'}}>Home</Box></Link>
-          <Box padding='10px 22px 10px 22px' borderRadius={'5px'} _hover={{background:"#b5d6f1",color:'blue'}}>Services</Box>
+          <Link to='/services'>
+          <Box padding='10px 22px 10px 22px' borderRadius={'5px'} _hover={{background:"#b5d6f1",color:'blue'}}>Services</Box></Link>
           <Link to='/about'>
           <Box padding='10px 22px 10px 22px' borderRadius={'5px'} _hover={{background:"#b5d6f1",color:'blue'}}>About us</Box></Link>
           <Box padding='10px 22px 10px 22px' borderRadius={'5px'} _hover={{background:"#b5d6f1",color:'blue'}}>Blogs</Box>
-          <Box padding='10px 22px 10px 22px' borderRadius={'5px'} _hover={{background:"#b5d6f1",color:'blue'}}>Contact us</Box>
+          <Link to='/contact'>
+          <Box padding='10px 22px 10px 22px' borderRadius={'5px'} _hover={{background:"#b5d6f1",color:'blue'}}>Contact us</Box></Link>
           <Box padding='10px 22px 10px 22px' borderRadius={'5px'} _hover={{background:"#b5d6f1",color:'blue'}}>Success Storis</Box>
         </Flex>
         <Flex pt={3} w={'20%'} justifyContent={'center'} gap={10}>
