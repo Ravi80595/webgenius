@@ -5,6 +5,7 @@ import Footer from '../Components/Footer'
 import {BiSolidRightArrowAlt} from 'react-icons/bi'
 import {FaHome} from 'react-icons/fa'
 import ServicesSection from './Home/ServicesSection'
+import WithSpeechBubbles from './Testimonials'
 
 
 
@@ -76,15 +77,11 @@ Podcasting operational change management inside.</Text>
 </Flex>
 
 <Box pt={90}>
-<Flex justifyContent={'center'}>
-        <Image src='https://demo.rstheme.com/wordpress/tekone/wp-content/uploads/2023/03/heart_beat_graph_dark.svg'/>
-        <Text color={'#323F7C'} fontSize={'20px'} fontWeight={'700'} fontFamily={'"Space Grotesk", Sans-serif'}>Testimonials </Text>
-        <Image src='https://demo.rstheme.com/wordpress/tekone/wp-content/uploads/2023/03/heart_beat_graph_dark.svg'/>
-      </Flex>
-      <Text fontSize={'36px'} fontFamily={'"Space Grotesk", sans-serif'} letterSpacing={0} fontWeight='600' textAlign={'center'} color={'#002559'} mt={3} mb={10}>What customers said about our <br /> ‘Tekone’</Text>
+
+      
 </Box>
 
-
+  <WithSpeechBubbles/>
       <Footer/>
     </Box>
   )
