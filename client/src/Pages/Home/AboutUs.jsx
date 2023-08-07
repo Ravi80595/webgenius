@@ -6,7 +6,7 @@ import '../../CSS/MovingImage.css'
 const AboutUs = () => {
 
 
-return (
+return(
     <Box background={'#edfaffa1'} pt={20}>
       <Flex>
         <Box w={'50%'}>
@@ -19,13 +19,13 @@ return (
             <Text fontSize='36px' lineHeight='45px' color={'#323F7C'} fontFamily={'"Space Grotesk", sans-serif'} fontWeight={'bold'} mt={2} mb={4}>We Believe That Every Problem Has A Solution</Text>
             <Text fontSize={'17px'} lineHeight={'26px'} mb={5} fontFamily={'"Open Sans", sans-serif'} fontWeight='520' color={'#606060'}>Deliver beautiful emails that get opened and clicked every time. Personalized content to every subscriber. Fully customizable templates. Build relationships that lead to conversions.</Text>
             <Text fontSize={'26px'} fontWeight={'600'} lineHeight={'26px'} fontFamily={'"Space Grotesk", sans-serif'} color='#112437' mb={5}> <u> Top Features </u></Text>
-            <Flex mt={5} justifyContent={'space-around'} fontSize={'16px'} color={'#606060'} fontWeight={500}>
-            <Flex gap={5}><BsBookmarkCheckFill/> <Text>Drag & Drop Newsletter Editor</Text></Flex>
-            <Flex gap={5}><BsBookmarkCheckFill/> <Text>Content A/B Testing</Text></Flex>
+            <Flex w={'99%'} direction={['column','column','row','row']} gap={2} mt={5} justifyContent={'space-around'} fontSize={'16px'} color={'#606060'} fontWeight={500}>
+            <Flex w={['100%','100%','50%','50%']} gap={5}><BsBookmarkCheckFill/> <Text>Diversified Market Leadership</Text></Flex>
+            <Flex w={['100%','100%','50%','50%']} gap={5}><BsBookmarkCheckFill/> <Text>Tech-Driven Efficiency</Text></Flex>
             </Flex>
-            <Flex mt={3} mb={10} justifyContent={'space-around'} fontSize={'16px'} color={'#606060'} fontWeight={500}>
-            <Flex gap={5}><BsBookmarkCheckFill/> <Text>Subject Line A/B Testing</Text></Flex>
-            <Flex gap={5}><BsBookmarkCheckFill/> <Text>Internal Networking</Text></Flex>
+            <Flex mt={3} direction={['column','column','row','row']} gap={2} mb={10} justifyContent={'space-around'} fontSize={'16px'} color={'#606060'} fontWeight={500}>
+            <Flex w={['100%','100%','50%','50%']} gap={5}><BsBookmarkCheckFill/> <Text>Trusted One-Stop Shop</Text></Flex>
+            <Flex w={['100%','100%','50%','50%']} gap={5}><BsBookmarkCheckFill/> <Text>Sustainable Growth</Text></Flex>
             </Flex>
             <Text>Rring to the table win-win survival strategies to ensure proactive domination. At the end of the day going forward.</Text>
             <Button mt={5} backgroundImage={'linear-gradient(99.43deg, #513DE8 0.99%, #8366E3 99.43%)'}
