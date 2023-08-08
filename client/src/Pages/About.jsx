@@ -94,36 +94,36 @@ Podcasting operational change management inside.</Text>
 <Flex w={'90%'} m={'auto'} justifyContent={'space-around'} mt={'90px'}>
   <Box borderRadius={'10px'} p={'32px 36px'} pl={'56px'} pr={'56px'} backgroundImage={'https://demo.rstheme.com/wordpress/tekone/wp-content/uploads/2023/03/dotted-shape.png'} backgroundPosition={'top center'} backgroundSize={'contain'} backgroundRepeat={'no-repeat'} textAlign={'center'} backgroundColor={'#F8F7FD'} alignContent={'center'}>
     <Image w={'48px'} m={'auto'} pb={3} src='https://demo.rstheme.com/wordpress/tekone/wp-content/uploads/2023/03/mobile-device.png'/>
-    <Text color={'#513DE8'} fontSize={'36px'} fontWeight={'700'} lineHeight={'48px'} fontFamily={'"Space Grotesk", Sans-serif'} pb={3}>3020+</Text>
+    <Text color={'#513DE8'} fontSize={'36px'} fontWeight={'700'} lineHeight={'48px'} fontFamily={'"Space Grotesk", Sans-serif'} pb={3}>780+</Text>
     <Text color={'#323F7C'} fontSize={'18px'}fontWeight={'500'} fontFamily={'"Space Grotesk", Sans-serif'}>Apps <br /> Developed </Text>
   </Box>
 
 
   <Box borderRadius={'10px'} p={'32px 36px'} pl={'56px'} pr={'56px'} backgroundImage={'https://demo.rstheme.com/wordpress/tekone/wp-content/uploads/2023/03/dotted-shape.png'} backgroundPosition={'top center'} backgroundSize={'contain'} backgroundRepeat={'no-repeat'} textAlign={'center'} backgroundColor={'#F8F7FD'} alignContent={'center'}>
-    <Image w={'48px'} m={'auto'} pb={3} src='https://demo.rstheme.com/wordpress/tekone/wp-content/uploads/2023/03/mobile-device.png'/>
-    <Text color={'#513DE8'} fontSize={'36px'} fontWeight={'700'} lineHeight={'48px'} fontFamily={'"Space Grotesk", Sans-serif'} pb={3}>3020+</Text>
-    <Text color={'#323F7C'} fontSize={'18px'}fontWeight={'500'} fontFamily={'"Space Grotesk", Sans-serif'}>Apps <br /> Developed </Text>
+    <Image w={'58px'} m={'auto'} pb={3} src='https://demo.rstheme.com/wordpress/tekone/wp-content/uploads/2023/03/desktop-device.png'/>
+    <Text color={'#513DE8'} fontSize={'36px'} fontWeight={'700'} lineHeight={'48px'} fontFamily={'"Space Grotesk", Sans-serif'} pb={3}>1200+</Text>
+    <Text color={'#323F7C'} fontSize={'18px'}fontWeight={'500'} fontFamily={'"Space Grotesk", Sans-serif'}>Website <br /> Developed </Text>
   </Box>
 
 
   <Box borderRadius={'10px'} p={'32px 36px'} pl={'56px'} pr={'56px'} backgroundImage={'https://demo.rstheme.com/wordpress/tekone/wp-content/uploads/2023/03/dotted-shape.png'} backgroundPosition={'top center'} backgroundSize={'contain'} backgroundRepeat={'no-repeat'} textAlign={'center'} backgroundColor={'#F8F7FD'} alignContent={'center'}>
-    <Image w={'48px'} m={'auto'} pb={3} src='https://demo.rstheme.com/wordpress/tekone/wp-content/uploads/2023/03/mobile-device.png'/>
+    <Image w={'58px'} m={'auto'} pb={3} src='https://demo.rstheme.com/wordpress/tekone/wp-content/uploads/2023/03/customer-service-3.png'/>
     <Text color={'#513DE8'} fontSize={'36px'} fontWeight={'700'} lineHeight={'48px'} fontFamily={'"Space Grotesk", Sans-serif'} pb={3}>3020+</Text>
-    <Text color={'#323F7C'} fontSize={'18px'}fontWeight={'500'} fontFamily={'"Space Grotesk", Sans-serif'}>Apps <br /> Developed </Text>
+    <Text color={'#323F7C'} fontSize={'18px'}fontWeight={'500'} fontFamily={'"Space Grotesk", Sans-serif'}>Happy <br /> Clients </Text>
   </Box>
 
 
   <Box borderRadius={'10px'} p={'32px 36px'} pl={'56px'} pr={'56px'} backgroundImage={'https://demo.rstheme.com/wordpress/tekone/wp-content/uploads/2023/03/dotted-shape.png'} backgroundPosition={'top center'} backgroundSize={'contain'} backgroundRepeat={'no-repeat'} textAlign={'center'} backgroundColor={'#F8F7FD'} alignContent={'center'}>
-    <Image w={'48px'} m={'auto'} pb={3} src='https://demo.rstheme.com/wordpress/tekone/wp-content/uploads/2023/03/mobile-device.png'/>
-    <Text color={'#513DE8'} fontSize={'36px'} fontWeight={'700'} lineHeight={'48px'} fontFamily={'"Space Grotesk", Sans-serif'} pb={3}>3020+</Text>
-    <Text color={'#323F7C'} fontSize={'18px'}fontWeight={'500'} fontFamily={'"Space Grotesk", Sans-serif'}>Apps <br /> Developed </Text>
+    <Image w={'58px'} m={'auto'} pb={3} src='https://demo.rstheme.com/wordpress/tekone/wp-content/uploads/2023/03/db-server-2.png'/>
+    <Text color={'#513DE8'} fontSize={'36px'} fontWeight={'700'} lineHeight={'48px'} fontFamily={'"Space Grotesk", Sans-serif'} pb={3}>320+</Text>
+    <Text color={'#323F7C'} fontSize={'18px'}fontWeight={'500'} fontFamily={'"Space Grotesk", Sans-serif'}>Data <br /> Science </Text>
   </Box>
 
 
   <Box borderRadius={'10px'} p={'32px 36px'} pl={'56px'} pr={'56px'} backgroundImage={'https://demo.rstheme.com/wordpress/tekone/wp-content/uploads/2023/03/dotted-shape.png'} backgroundPosition={'top center'} backgroundSize={'contain'} backgroundRepeat={'no-repeat'} textAlign={'center'} backgroundColor={'#F8F7FD'} alignContent={'center'}>
-    <Image w={'48px'} m={'auto'} pb={3} src='https://demo.rstheme.com/wordpress/tekone/wp-content/uploads/2023/03/mobile-device.png'/>
-    <Text color={'#513DE8'} fontSize={'36px'} fontWeight={'700'} lineHeight={'48px'} fontFamily={'"Space Grotesk", Sans-serif'} pb={3}>3020+</Text>
-    <Text color={'#323F7C'} fontSize={'18px'}fontWeight={'500'} fontFamily={'"Space Grotesk", Sans-serif'}>Apps <br /> Developed </Text>
+    <Image w={'55px'} m={'auto'} pb={3} src='https://demo.rstheme.com/wordpress/tekone/wp-content/uploads/2023/03/document.png'/>
+    <Text color={'#513DE8'} fontSize={'36px'} fontWeight={'700'} lineHeight={'48px'} fontFamily={'"Space Grotesk", Sans-serif'} pb={3}>2700+</Text>
+    <Text color={'#323F7C'} fontSize={'18px'}fontWeight={'500'} fontFamily={'"Space Grotesk", Sans-serif'}>Projects <br /> Delivered </Text>
   </Box>
 </Flex>
 

@@ -24,7 +24,8 @@ return (
           <Box padding='10px 22px 10px 22px' borderRadius={'5px'} _hover={{background:"#b5d6f1",color:'blue'}}>Blogs</Box></Link>
           <Link to='/contact'>
           <Box padding='10px 22px 10px 22px' borderRadius={'5px'} _hover={{background:"#b5d6f1",color:'blue'}}>Contact us</Box></Link>
-          <Box padding='10px 22px 10px 22px' borderRadius={'5px'} _hover={{background:"#b5d6f1",color:'blue'}}>Success Storis</Box>
+          <Link to='/success'>
+          <Box padding='10px 22px 10px 22px' borderRadius={'5px'} _hover={{background:"#b5d6f1",color:'blue'}}>Success Stories</Box></Link>
         </Flex>
         <Flex pt={3} w={'20%'} justifyContent={'center'} gap={10}>
           <Button _hover={{background:"blue",color:'white'}} color={'white'} fontSize={'1.15rem'} background={'#323F7C'} p='14px 36px 14px 36px' borderRadius={'6px'}>Get A Quote </Button>
