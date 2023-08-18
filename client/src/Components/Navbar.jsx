@@ -2,13 +2,16 @@ import { Box,Flex,Button,Text,Image } from '@chakra-ui/react'
 import React from 'react'
 import {BsSearchHeart} from 'react-icons/bs'
 import { Link } from 'react-router-dom'
+import MobNav from './MobNav'
+import '../CSS/Navbar.css'
 
 const Navbar = () => {
 
 
 
 return (
-    <Box background={'#a4ece8'} zIndex={99999} position={'fixed'} w={'100%'}>
+  <>
+    <Box className='Laptop-view' background={'#a4ece8'} zIndex={99999} position={'fixed'} w={'100%'}>
       <Flex p={5} justifyContent='space-around'>
         <Box w={'15%'}>
           <Image w={20} src='https://www.marketingmind.in/wp-content/uploads/2020/02/5.jpg'/>
@@ -32,6 +35,10 @@ return (
         </Flex>
       </Flex>
     </Box>
+    <div className='mobileDiv'>
+            <MobNav/>
+        </div>
+    </>
   )
 }
 

@@ -7,10 +7,10 @@ const TechStacks = () => {
     // box-shadow: ;
 return (
     <Box background={'#f8f8f8'} pt={'80px'} pb={'80px'}>
-        <Flex justifyContent={'space-around'}>
-            <Box  w={'30%'}>
+        <Flex justifyContent={'space-around'} direction={['column','column','row','row']}>
+            <Box w={['80%','70%','30%','30%']} m={'auto'}>
                 <Text color={'#5944E8'} fontSize={'16px'} fontWeight={'bold'} fontFamily={'"Space Grotesk", sans-serif'}>WORK FOR ANY INDUSTRY</Text>
-                <Text fontSize={'36px'} lineHeight={'46px'} fontWeight={'bold'} color={'#323F7C'} fontFamily={'"Space Grotesk", sans-serif'}>Best Solutions, For All Organizations</Text>
+                <Text fontSize={['26px','36px','36px','36px']} lineHeight={['36px','46px','46px','46px']} fontWeight={'bold'} color={'#323F7C'} fontFamily={'"Space Grotesk", sans-serif'}>Best Solutions, For All Organizations</Text>
             </Box>
             <Box _hover={{transform:'translateY(-15px)',transition:'transform 0.5s'}} box-shadow='rgba(0, 0, 0, 0.35) 0px 5px 15px' p='50px' background={'white'} borderRadius={20}>
                 <Image w='70px' src='https://demo.rstheme.com/wordpress/tekone/wp-content/uploads/2023/05/atom.png'/>
@@ -25,7 +25,7 @@ return (
 
 
 
-        <Flex mt={10} justifyContent={'space-around'}>
+        <Flex mt={10} justifyContent={'space-around'} direction={['column','column','row','row']}>
         <Box _hover={{transform:'translateY(-15px)',transition:'transform 0.5s'}} p='50px' background={'white'} borderRadius={20} >
                 <Image w='70px' src='https://demo.rstheme.com/wordpress/tekone/wp-content/uploads/2023/05/diamond.png'/>
             </Box> 

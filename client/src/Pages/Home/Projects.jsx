@@ -15,13 +15,13 @@ return(
      <Text color={'#5944E8'} fontSize={'16px'} fontWeight={'bold'} fontFamily={'"Space Grotesk", sans-serif'}>OUR PROJECTS</Text>
      <Image src='https://demo.rstheme.com/wordpress/tekone/wp-content/uploads/2023/03/heart_beat_graph_dark.svg'/>
     </Flex>
-      <Heading w='50%' m='auto' pb='80px' textAlign={'center'} fontSize={'36px'} lineHeight={'46px'} fontWeight={'bold'} color={'#323F7C'} fontFamily={'"Space Grotesk", sans-serif'}>Our Recent Launched Projects Available Into Market</Heading>
+      <Heading w={['90%','90%','50%','50%']} m='auto' pb='80px' textAlign={'center'} fontSize={['22px','22px','36px','36px']} lineHeight={['36px','36px','46px','46px']} fontWeight={'bold'} color={'#323F7C'} fontFamily={'"Space Grotesk", sans-serif'}>Our Recent Launched Projects Available Into Market</Heading>
 
 
 
 
 
-      <Flex color={'white'} w={'95%'} m={'auto'} justifyContent={'center'} gap='10px'>
+      <Flex direction={['column','column','row','row']} color={'white'} w={'95%'} m={'auto'} justifyContent={'center'} gap='10px'>
       <Box className='image-container'>
         <Image className='image' src='https://demo.rstheme.com/wordpress/tekone/wp-content/uploads/2023/03/portfolio-4.jpg'/>
         <div className="blue-overlay"></div>

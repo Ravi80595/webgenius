@@ -13,15 +13,15 @@ return(
     <Box  pt='88px' pb='35px'>
       <Flex mb={'20px'} justifyContent={'center'}>
         <Image src='https://demo.rstheme.com/wordpress/tekone/wp-content/uploads/2023/03/heart_beat_graph_dark.svg'/>
-        <Text color={'#323F7C'} fontSize={'20px'} fontWeight={'700'} fontFamily={'"Space Grotesk", Sans-serif'}>What Technology We Are Using For Our Valued Customers</Text>
+        <Text color={'#323F7C'} fontSize={['12px','12px','20px','20px']} fontWeight={'700'} fontFamily={'"Space Grotesk", Sans-serif'}>What Technology We Are Using For Our Valued Customers</Text>
         <Image src='https://demo.rstheme.com/wordpress/tekone/wp-content/uploads/2023/03/heart_beat_graph_dark.svg'/>
       </Flex>
       <Box backgroundColor={'#f8f8f8'} pt={10} pb={10}>
         <Text marginLeft={10} fontSize={'16px'} fontFamily={'"Space Grotesk",sans-serif'} fontWeight={'600'}>Website Development</Text><br></br>
-        <Flex justifyContent={'space-around'}>
+        <Flex justifyContent={'space-around'} direction={['column','column','row','row']}>
         <Box>
           <Image w={'50px'} h={'40px'} src='https://ravi80595.github.io/static/media/htmllogo.2ba4fabc69a89a8f71e6.png'/>
-          <Text textAlign={'center'} mt={2} fontWeight={'600'}>HTML</Text></Box>
+          <Text textAlign={'center'} mt={[0,0,0,2]} fontWeight={'600'}>HTML</Text></Box>
           <Box>
           <Image w={'50px'} h={'40px'} src='https://ravi80595.github.io/static/media/csslogo.69a82c2d9e45c933a9cb.png'/>
           <Text textAlign={'center'} mt={2} fontWeight={'600'}>CSS</Text></Box>
@@ -42,8 +42,8 @@ return(
           <Text textAlign={'center'} mt={2} fontWeight={'600'}>ChakraUI</Text></Box>
         </Flex>
       </Box>
-      <Flex gap={'20px'} p={10}>
-        <Box w={'33%'} background={'#f8f8f8'} borderRadius={'10px'} p={5}>
+      <Flex gap={'20px'} p={10} direction={['column','column','row','row']}>
+        <Box w={['99%','99%','33%','33%']} background={'#f8f8f8'} borderRadius={'10px'} p={5}>
           <Text pb={3} fontSize={'16px'} fontFamily={'"Space Grotesk",sans-serif'} fontWeight={'600'}>Mobile Development</Text>
           <Flex pb={'10px'} gap={'30px'}>
           <Box className='hover-3'>
@@ -66,7 +66,7 @@ return(
           <Image w={'40px'} h={'30px'} src='https://e7.pngegg.com/pngimages/12/992/png-clipart-xamarin-data-cosmos-db-logo-mobile-app-development-xamarin-data-thumbnail.png'/></Flex>
           <Text textAlign={'center'} mt={2} fontWeight={'600'}>Swift</Text></Box>
         </Box>
-        <Box w={'33%'} background={'#f8f8f8'} borderRadius={'10px'} p={5}>
+        <Box w={['99%','99%','33%','33%']} background={'#f8f8f8'} borderRadius={'10px'} p={5}>
           <Text pb={3} fontSize={'16px'} fontFamily={'"Space Grotesk",sans-serif'} fontWeight={'600'}>Utilites</Text>
           <Flex pb={'10px'} gap={'30px'}>
           <Box className='hover-3'>
@@ -91,7 +91,7 @@ return(
           <Image w={'40px'} h={'30px'} src='https://w7.pngwing.com/pngs/12/32/png-transparent-google-cloud-platform-dataflow-cloud-computing-bigquery-apache-beam-database-blue-logo-electric-blue-thumbnail.png'/></Flex>
           <Text textAlign={'center'} mt={2} fontWeight={'600'}>Dataflow</Text></Box>
         </Box>
-        <Box w={'33%'} background={'#f8f8f8'} borderRadius={'10px'} p={5}>
+        <Box w={['99%','99%','33%','33%']} background={'#f8f8f8'} borderRadius={'10px'} p={5}>
           <Text pb={3} fontSize={'16px'} fontFamily={'"Space Grotesk",sans-serif'} fontWeight={'600'}>Business Tools</Text>
           <Flex pb={'10px'} gap={'30px'} justifyContent={'space-around'}>
           <Box className='hover-3'>

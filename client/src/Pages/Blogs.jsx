@@ -26,8 +26,6 @@ return (
       </Flex>
     </Box>
     </Flex>
-
-
     <Footer/>
   </Box>
   )

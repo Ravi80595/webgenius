@@ -8,15 +8,15 @@ const AboutUs = () => {
 
 return(
     <Box background={'#edfaffa1'} pt={20}>
-      <Flex>
-        <Box w={'50%'}>
-        <Image className='moving-image' w={180} left={350} mt={20} position={'absolute'} src='https://demo.rstheme.com/wordpress/tekone/wp-content/uploads/2023/05/about-drone-img-h5.png'/>
-            <Image src='https://demo.rstheme.com/wordpress/tekone/wp-content/uploads/2023/05/about-main-img-h5.png'/>
+      <Flex direction={['column','column','row','row']}>
+        <Box w={['95%','95%','50%','50%']}>
+        <Image className='moving-image' w={['90px',180,180,180]} left={[190,150,350,350]} mt={20} position={'absolute'} src='https://demo.rstheme.com/wordpress/tekone/wp-content/uploads/2023/05/about-drone-img-h5.png'/>
+            <Image w={['500px','500px','500px','500px']} src='https://demo.rstheme.com/wordpress/tekone/wp-content/uploads/2023/05/about-main-img-h5.png'/>
             
         </Box>
-        <Box w={'45%'}>
+        <Box  w={['95%','95%','45%','45%']} m={'auto'}>
             <Text fontSize={'16px'} fontWeight='500' lineHeight={'26px'} color={'#5944E8'} fontFamily={'"Space Grotesk", sans-serif'}>ABOUT US</Text>
-            <Text fontSize='36px' lineHeight='45px' color={'#323F7C'} fontFamily={'"Space Grotesk", sans-serif'} fontWeight={'bold'} mt={2} mb={4}>We Believe That Every Problem Has A Solution</Text>
+            <Text fontSize={['26px','36px','36px','36px']} lineHeight={['35px','35px','45px','45px']} color={'#323F7C'} fontFamily={'"Space Grotesk", sans-serif'} fontWeight={'bold'} mt={[0,0,0,2]} mb={4}>We Believe That Every Problem Has A Solution</Text>
             <Text fontSize={'17px'} lineHeight={'26px'} mb={5} fontFamily={'"Open Sans", sans-serif'} fontWeight='520' color={'#606060'}>Deliver beautiful emails that get opened and clicked every time. Personalized content to every subscriber. Fully customizable templates. Build relationships that lead to conversions.</Text>
             <Text fontSize={'26px'} fontWeight={'600'} lineHeight={'26px'} fontFamily={'"Space Grotesk", sans-serif'} color='#112437' mb={5}> <u> Top Features </u></Text>
             <Flex w={'99%'} direction={['column','column','row','row']} gap={2} mt={5} justifyContent={'space-around'} fontSize={'16px'} color={'#606060'} fontWeight={500}>
