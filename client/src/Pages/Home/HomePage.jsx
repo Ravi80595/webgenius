@@ -17,7 +17,7 @@ return (
       <HeroSections/>
       <ServicesSection/>
       <AboutUs/>
-      <TechStacks/>
+      {/* <TechStacks/> */}
       <Techs/>
       <Projects/>
       <Footer/>
