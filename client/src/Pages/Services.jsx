@@ -8,7 +8,7 @@ import ServicesSection from './Home/ServicesSection'
 import WithSpeechBubbles from './Testimonials'
 
 
-
+  
 const Services = () => {
 
     
@@ -75,12 +75,8 @@ Podcasting operational change management inside.</Text>
       <Image borderRadius={'20px'} w={300} h={300} src='https://demo.rstheme.com/wordpress/tekone/wp-content/uploads/2023/04/chose-right-right.jpg'/>
     </Flex>
 </Flex>
-
 <Box pt={90}>
-
-      
 </Box>
-
   <WithSpeechBubbles/>
       <Footer/>
     </Box>
