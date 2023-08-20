@@ -41,7 +41,7 @@ const ServicesSection = () => {
                     <Box w='90%' m='auto'>
                         <Text fontSize='24px' fontFamily={'"Space Grotesk", sans-serif'} color={'#002559'} fontWeight={'bold'} lineHeight={'36px'} mt={'60px'}>Digital Marketing</Text>
                         <Text fontWeight='400' color='#606060' fontFamily={'"Open Sans", sans-serif'} fontSize={'16px'} lineHeight={'28px'} mt={'20px'}>Bring to the table win-win survival strategies to ensure proactive domination.</Text>
-                        <Link to='digitalmarketing'>
+                        <Link to='/digitalmarketing'>
                         <Flex color={'#323F7C'} _hover={{ color: '#002559' }} mt={'20px'} fontSize={'18px'} gap={'10px'}>
                             <Text fontWeight={600}>Read More</Text>
                             <Box pt={'5px'} fontSize={'20px'}>
@@ -58,7 +58,7 @@ const ServicesSection = () => {
                     <Box w='90%' m='auto'>
                         <Text fontSize='24px' fontFamily={'"Space Grotesk", sans-serif'} color={'#002559'} fontWeight={'bold'} lineHeight={'36px'} mt={'60px'}>UI/UX Design</Text>
                         <Text fontWeight='400' color='#606060' fontFamily={'"Open Sans", sans-serif'} fontSize={'16px'} lineHeight={'28px'} mt={'20px'}>Bring to the table win-win survival strategies to ensure proactive domination.</Text>
-                        <Link to='uiuxdesign'>
+                        <Link to='/uiuxdesign'>
                         <Flex color={'#323F7C'} _hover={{ color: '#002559' }} mt={'20px'} fontSize={'18px'} gap={'10px'}>
                             <Text fontWeight={600}>Read More</Text>
                             <Box pt={'5px'} fontSize={'20px'}>
@@ -94,7 +94,7 @@ const ServicesSection = () => {
                     <Box w='90%' m='auto'>
                         <Text fontSize='24px' fontFamily={'"Space Grotesk", sans-serif'} color={'#002559'} fontWeight={'bold'} lineHeight={'36px'} mt={'60px'}>SEO Optimization</Text>
                         <Text fontWeight='400' color='#606060' fontFamily={'"Open Sans", sans-serif'} fontSize={'16px'} lineHeight={'28px'} mt={'20px'}>Bring to the table win-win survival strategies to ensure proactive domination.</Text>
-                        <Link to='seooptimization'>
+                        <Link to='/seooptimization'>
                         <Flex color={'#323F7C'} _hover={{ color: '#002559' }} mt={'20px'} fontSize={'18px'} gap={'10px'}>
                             <Text fontWeight={600}>Read More</Text>
                             <Box pt={'5px'} fontSize={'20px'}>
@@ -111,7 +111,7 @@ const ServicesSection = () => {
                     <Box w='90%' m='auto'>
                         <Text fontSize='24px' fontFamily={'"Space Grotesk", sans-serif'} color={'#002559'} fontWeight={'bold'} lineHeight={'36px'} mt={'60px'}>Cyber Security</Text>
                         <Text fontWeight='400' color='#606060' fontFamily={'"Open Sans", sans-serif'} fontSize={'16px'} lineHeight={'28px'} mt={'20px'}>Bring to the table win-win survival strategies to ensure proactive domination.</Text>
-                        <Link to='cybersecurity'>
+                        <Link to='/cybersecurity'>
                         <Flex color={'#323F7C'} _hover={{ color: '#002559' }} mt={'20px'} fontSize={'18px'} gap={'10px'}>
                             <Text fontWeight={600}>Read More</Text>
                             <Box pt={'5px'} fontSize={'20px'}>

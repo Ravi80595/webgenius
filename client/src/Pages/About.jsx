@@ -4,6 +4,7 @@ import Navbar2 from '../Components/Navbar2'
 import {FaHome} from 'react-icons/fa'
 import {BiSolidRightArrowAlt} from 'react-icons/bi'
 import Footer from '../Components/Footer'
+import { Link } from 'react-router-dom'
 
 const About = () => {
 
@@ -40,7 +41,8 @@ return (
       <br /><br />
       Rring to the table win-win survival strategies to ensure proactive domination. At the end of the day going forward.
       </Text>
-      <Button ml={5} fontFamily={'"Open Sans", sans-serif'} mt={10} fontSize={'20px'} fontWeight={'500'} p='15px 30px 16px 30px' pt={'30px'} pb={'30px'} backgroundImage={'linear-gradient(99.43deg, #513DE8 0.99%, #8366E3 99.43%)'} _hover={{color:'white'}} borderRadius={'6px'} color={'white'} lineHeight={'26px'}>Discover More</Button>
+      <Link to='/services'>
+      <Button ml={5} fontFamily={'"Open Sans", sans-serif'} mt={10} fontSize={'20px'} fontWeight={'500'} p='15px 30px 16px 30px' pt={'30px'} pb={'30px'} backgroundImage={'linear-gradient(99.43deg, #513DE8 0.99%, #8366E3 99.43%)'} _hover={{color:'white'}} borderRadius={'6px'} color={'white'} lineHeight={'26px'}>Discover More</Button></Link>
         </Box>
       </Flex>
 
