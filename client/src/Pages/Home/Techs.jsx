@@ -6,7 +6,7 @@ import '../../CSS/HomePage.css'
 
 const Techs =()=>{
 
-  
+    
 
 
 return(

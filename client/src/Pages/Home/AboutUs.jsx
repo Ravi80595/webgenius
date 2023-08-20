@@ -2,6 +2,7 @@ import { Box,Button,Flex,Image,Text} from '@chakra-ui/react'
 import React from 'react'
 import {BsBookmarkCheckFill} from 'react-icons/bs'
 import '../../CSS/MovingImage.css'
+import { Link } from 'react-router-dom'
 
 const AboutUs = () => {
 
@@ -28,8 +29,9 @@ return(
             <Flex w={['100%','100%','50%','50%']} gap={5}><BsBookmarkCheckFill/> <Text>Sustainable Growth</Text></Flex>
             </Flex>
             <Text>Rring to the table win-win survival strategies to ensure proactive domination. At the end of the day going forward.</Text>
+            <Link to='/services'>
             <Button mt={5} backgroundImage={'linear-gradient(99.43deg, #513DE8 0.99%, #8366E3 99.43%)'}
-            borderRadius={'30px'} padding='21px 50px 21px 50px' color={'white'} fontSize={'16px'} fontWeight='500' lineHeight={'22px'} _hover={{color:'white'}}>Discover More</Button>
+            borderRadius={'30px'} padding='21px 50px 21px 50px' color={'white'} fontSize={'16px'} fontWeight='500' lineHeight={'22px'} _hover={{color:'white'}}>Discover More</Button></Link>
         </Box>
       </Flex>
     </Box>

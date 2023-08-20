@@ -8,7 +8,7 @@ import {BiSolidCloudDownload} from 'react-icons/bi'
 import { Link } from 'react-router-dom'
 
 
-const ItSolutions = () => {
+const SeoOptimization = () => {
 
 
 return (
@@ -16,7 +16,7 @@ return (
     <Navbar2/>
     <Flex color={'white'} pt={90} justifyContent={'center'} backgroundImage={'https://demo.rstheme.com/wordpress/tekone/wp-content/uploads/2023/04/inner_bg.png'} backgroundRepeat={'no-repeat'} backgroundSize={'cover'} backgroundPosition={'center'} height={'450px'}>
     <Box pt={'100px'}>
-      <Text fontSize={'64px'} fontFamily={'"Space Grotesk", sans-serif'} fontWeight={'bold'}>IT Solutions</Text>
+      <Text fontSize={'64px'} fontFamily={'"Space Grotesk", sans-serif'} fontWeight={'bold'}>SEO Optimization</Text>
       <Flex fontSize={'18px'} gap={'10px'}>
       <Box pt={'5px'} fontSize={'20px'}>
         <FaHome/></Box>
@@ -26,7 +26,7 @@ return (
         <Text>Services</Text>
         <Box pt={'5px'} fontSize={'20px'}>
         <BiSolidRightArrowAlt/></Box>
-        <Text>ItSolutions</Text>
+        <Text>SEO Optimization</Text>
       </Flex>
     </Box>
     </Flex>
@@ -37,8 +37,7 @@ return (
             </Box>
             <Box mt={7}>
                 <Heading fontSize={'36px'} lineHeight={'46px'} fontWeight={'700'} color={'#323F7C'} fontFamily={'"Space Grotesk", sans-serif'}>Categories</Heading>
-                <Box>
-                <Link to='/itsolutions'>
+                <Box><Link to='/itsolutions'>
                     <Flex color={'white'} backgroundImage={'linear-gradient(94.57deg, #513DE8 0.99%, #8366E3 99.43%)'} _hover={{backgroundImage:'linear-gradient(94.57deg, #513DE8 0.99%, #8366E3 99.43%)'}} borderRadius={'5px'} mt={5} backgroundColor={'#F3F1FD'} fontSize={"20px"} justifyContent={'space-between'} gap={'20px'} p={2} pl="70px" pr='60px'>
                     <Text> IT Solutions</Text>
                     <Box pt={'7px'} fontSize={'20px'}>
@@ -64,17 +63,18 @@ return (
                     </Flex></Link>
                     <Link to='/digitalmarketing'>
                     <Flex  _hover={{backgroundImage:'linear-gradient(94.57deg, #513DE8 0.99%, #8366E3 99.43%)', color:"white"}} borderRadius={'5px'} mt={5} backgroundColor={'#F3F1FD'} fontSize={"20px"} justifyContent={'space-between'} gap={'20px'} p={2} pl="70px" pr='60px'>
-                    <Text> Brand Identity</Text>
+                    <Text> Digital Marketing</Text>
                     <Box pt={'7px'} fontSize={'20px'}>
                     <BiSolidRightArrowAlt/></Box>
-                    </Flex></Link>
+                    </Flex>
+                    </Link>
                 </Box>
             </Box>
         </Flex>
     </Box>
 
 <Box w={'90%'} m='auto' mt={50}>
-    <Heading fontSize={'36px'} lineHeight={'46px'} fontWeight={'700'} color={'#323F7C'} fontFamily={'"Space Grotesk", sans-serif'}>IT Solutions</Heading>
+    <Heading fontSize={'36px'} lineHeight={'46px'} fontWeight={'700'} color={'#323F7C'} fontFamily={'"Space Grotesk", sans-serif'}>SEO Optimization</Heading>
     <Flex mt={5} justifyContent={'space-between'}>
     <Box w={'70%'}>
     <Text fontSize={'20px'} lineHeight={'32px'} color={'#606060'} fontFamily={'"Open Sans", sans-serif'}>Completely synergize resource taxing relationships via premier niche markets. Professionally cultivate one-to-one customer service with robust ideas. Dynamically innovate resource-leveling customer service for state of the art customer service. Objectively innovate empowered manufactured products whereas parallel platforms.</Text>
@@ -143,4 +143,4 @@ pontificate installed base portals after maintainable products.</Text>
   )
 }
 
-export default ItSolutions
+export default SeoOptimization
