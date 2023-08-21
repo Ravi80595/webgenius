@@ -11,6 +11,7 @@ import CyberSecurity from '../Pages/ServicesPages/CyberSecurity'
 import DigitalMarketing from '../Pages/ServicesPages/DigitalMarketing'
 import SeoOptimization from '../Pages/ServicesPages/SeoOptimization'
 import UiUxDesign from '../Pages/ServicesPages/UiUxDesign'
+import PrivacyPolicy from '../Pages/PrivacyPolicy'
 
 
 
@@ -30,6 +31,8 @@ return (
         <Route path="/digitalmarketing" element={<DigitalMarketing/>} />
         <Route path="/seooptimization" element={<SeoOptimization/>} />  
         <Route path="/uiuxdesign" element={<UiUxDesign/>} /> 
+        <Route path="/privacy" element={<PrivacyPolicy/>} /> 
+
     </Routes>
   )
 }

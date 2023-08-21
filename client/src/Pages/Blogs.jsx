@@ -4,7 +4,6 @@ import Navbar2 from '../Components/Navbar2'
 import Footer from '../Components/Footer'
 import {BiSolidRightArrowAlt} from 'react-icons/bi'
 import {FaHome} from 'react-icons/fa'
-import PostList from './PostList'
 
 
 
@@ -28,7 +27,8 @@ return (
     </Box>
     </Flex>
     <Box>
-      <PostList/>
+
+
     </Box>
     <Footer/>
   </Box>
